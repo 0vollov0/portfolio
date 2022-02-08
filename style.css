@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	min-width: fit-content;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+footer {
+	border-top: 1px solid #ebebeb;
+	padding-top: 5px;
+}
+
+section {
+	max-width: 860px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+a::before {
+	color: black;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: lighter;
+  color: #919191;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+h3 {
+	color: #282828;
+}
+
+.container_row {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.container_column {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container_title_date {
+	overflow: hidden;
+}
+
+.container_title_date > .title {
+	float: left;
+}
+
+.container_title_date > .date {
+	float: right;
+}
+
+.paragraph {
+	margin: 15px 8px 10px 8px;
+}
+
+.paragraph > .title {
+	font-size: larger;
+}
+
+.contents {
+	margin-top: 1%;
+	/* font-size: medium; */
+	/* color: #919191; */
+}
+
+.paragraph > .references {
+	margin-right: 20px;
+}
+
+.paragraph > .contents, .sub_title{
+	margin-left: 5px;
+}
+
+.title { 
+	font-weight: bold;
+}
+
+.references > p {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.references > p > i, span, a {
+	margin-left: 15px;
+}
+
+.year {
+	border-bottom: 1px solid #ebebeb;
+}
