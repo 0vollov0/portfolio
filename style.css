@@ -106,7 +106,7 @@ h3 {
 	justify-content: flex-end;
 }
 
-.references > p > i, span, a {
+.references > p > i, span, a, img {
 	margin-left: 15px;
 }
 
